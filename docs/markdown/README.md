@@ -1,3 +1,7 @@
+- titulo
+- descripcion acerca del proyecto contenido en el repositorio
+- autor
+---
 # titulo de primer nivel
 ## subtitulo de nivel 2
 ### subtitulo de nivel 3
