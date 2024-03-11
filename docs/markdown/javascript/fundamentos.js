@@ -76,7 +76,41 @@ let miVariable = "";
  console.log(typeof entradaUsuario);
 
 /* Conversion de tipos */
+let numero1 = '1';
+let numero2 = '2';
+let numero3 = '3';
+let  = numero1 + numero2 + numero3;
+console.log(resultado);
+numero1 = Number(numero1);
+numero2 = parseInt(numero2);
+numero3 = +numero3;
+let resultado = numero1 + numero2 + numero3;
+console.log(resultado);
 
+let numeroDecimal1 = '1.5';
+let numeroDecimal2 = '2.5';
+let numeroDecimal3 = '3.5';
+resultado = numeroDecimal1 + numeroDecimal2 + numeroDecimal3
+console.log(resultado);
+numeroDecimal1 = parseFloat(numeroDecimal1);
+numeroDecimal2 = parseFloat(numeroDecimal2);
+numeroDecimal3 = Number(numeroDecimal3)
+resultado = numeroDecimal1 + numeroDecimal2 + numeroDecimal3;
+console.log(resultado)
+
+let telefono = 555;
+let codigoPais = 57;
+console.log(telefono);
+console.log(typeof telefono);
+console.log(codigoPais);
+console.log(typeof codigoPais)
+telefono = String(telefono);
+console.log(telefono);
+console.log(typeof telefono);
+codigoPais = codigoPais.toString
+console.log(codigoPais)
+console.log(typeof codigoPais)
+console.log('Numero completo:' , codigoPais + telefono);
 
 /* Expresiones booleanas */
 // Turthy o verdaderos
@@ -117,7 +151,7 @@ if (true) {
   console.log("se cumple la condicion 5")
 } */
 
-/*const perfil = "profesor"
+const perfil = "profesor"
 switch (perfil){
   case "estudiante":
     console.log("eres un estudiante")
@@ -128,4 +162,4 @@ switch (perfil){
     default:
     console.log ("perfil no permitido")
     break;
-}*/
+}
