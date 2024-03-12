@@ -51,12 +51,15 @@ console.log(saludo); */
 let miVariable = "";
  miVariable = "este es un texto de 'ejemplo1'";
  miVariable = 'este es un texto de ejemplo 2';
- miVariable = 'este es un texto de ejemplo 3';
+ miVariable = "este es un 'texto' de ejemplo 3";
  // number
  miVariable = 10;
  miVariable = 9.5;
  miVariable = 0xFF;
   miVariable = 123e5
+  miVariable = NaN; 
+/*   console.log(miVariable);
+  console.log(typeof miVariable); */
 // boolean
   miVariable = true;
   miVariable = false;
