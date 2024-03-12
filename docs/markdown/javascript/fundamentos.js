@@ -80,7 +80,7 @@ let miVariable = "";
 let numero1 = '1';
 let numero2 = '2';
 let numero3 = '3';
-let  = numero1 + numero2 + numero3;
+resultado = numero1 + numero2 + numero3;
 console.log(resultado);
 numero1 = Number(numero1);
 numero2 = parseInt(numero2);
@@ -167,6 +167,61 @@ switch (perfil){
 
 /* Operadores*/
 // Concentracion
-console.log('pepita' + ' ' + 'Perez')
+//console.log('pepita' + ' ' + 'Perez');
 // Aritmeticos
-console.log(100 + 2009)
+/* console.log(8 + 4);
+console.log(8 - 4);
+console.log(8 * 4);
+console.log(8 / 4);
+console.log(8 % 4);
+console.log(10 % 3);
+console.log(2 ** 3); */
+
+/* miVariable = 3
+console.log(miVariable); */
+// Incremento
+/* miVariable++;
+console.log(miVariable); */
+//Decrement
+/* miVariable--;
+console.log(miVariable) */
+
+// Asignacion =
+/* let numero1 = 8;
+let numero2 = 4;
+let resultado = numero1 + numero2;
+resultado += 3;
+resultado -=5;
+resultado *=2;
+resultado /= 2;
+resultado %= 3;
+resultado **= 2;
+console.log(resultado);  */
+ 
+// Comparacion
+/* console.log(8 == 4);
+console.log(8 === 4);
+console.log(8 == 8);
+console.log(8 === 8);
+console.log(8 == "8");
+console.log(8 === "8");
+console.log('8' == '8');
+console.log('pepita' === 'Pepita');
+console.log(8 != 4);
+console.log(8 != '8');
+console.log(8 !== '8');
+console.log(8 > 4);
+console.log(8 < 4);
+console.log(8 >= 4);
+console.log(8 <= 4); */
+
+// Logicos
+/* console.log(true && true);
+console.log(true && false);
+console.log(false && false);
+console.log(true || false);
+console.log(true || false);
+console.log(false || false);
+console.log(!true);
+console.log(!false); */
+
