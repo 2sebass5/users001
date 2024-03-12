@@ -37,7 +37,7 @@ if (isNaN(numero)) {
     document.write('El numero ingresado es cero');
   } else if (numero < 0){
     document.write('El numero ingresado es positivo');
-  } else{
+  } else {
     document.write('El numero ingresado es negativo');
   }
 }
