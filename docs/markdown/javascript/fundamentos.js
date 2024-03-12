@@ -76,6 +76,7 @@ let miVariable = "";
  console.log(typeof entradaUsuario);
 
 /* Conversion de tipos */
+
 let numero1 = '1';
 let numero2 = '2';
 let numero3 = '3';
@@ -163,3 +164,9 @@ switch (perfil){
     console.log ("perfil no permitido")
     break;
 }
+
+/* Operadores*/
+// Concentracion
+console.log('pepita' + ' ' + 'Perez')
+// Aritmeticos
+console.log(100 + 2009)
