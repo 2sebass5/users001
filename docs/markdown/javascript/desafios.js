@@ -11,6 +11,13 @@ if (nombreUsuario) {
     document.write("hola") 
 } */
 
+const nombreUsuario = prompt("Ingrese su nombre");
+if (nombreUsuario) {
+  document.write('!hola, ' + nombreUsuario + '!')
+} else {
+  document.write('hola');
+}
+
 // Hacer un programa que pida aparte nombre y apellido y muestre el nombre completo.
 /* const nombre = prompt("ingrese su nombre");
 const apellido = prompt('ingrese su apellido');
